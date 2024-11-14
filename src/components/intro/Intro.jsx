@@ -35,13 +35,9 @@ const Intro = () => {
           
           <ul>
             <li>Experiência com desenvolvimento backend utilizando Python (Flask, FastApi e Django)</li>
-            <li>Experiência utilizando Python em projetos de análise de dados complexos para área de petróleo.</li>
             <li>Experiência com desenvolvimento de sistemas de contabilidade.</li>
             <li>Experiência desenvolvendo automações de processos RPA com Python (Selenium e Playwright)</li>
             <li>Experiência com container Docker.</li>
-            <li>Experiência com desenvolvimento C# e Java.</li>
-            <li>Experiência liderando refatoração e criação de sistemas construídos em React/Next.</li>
-            <li>Experiência com administração e criação de bancos de dados.</li>
             <li>Experiência com metodologias ágeis (SCRUM).</li>
             <li>Experiência com implementação de design partners.</li>
           </ul>

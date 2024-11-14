@@ -1,4 +1,8 @@
-import IMG15 from '../../assets/Jack_image.jpg'
+import NTFS from '../../assets/ntfs.png';
+import front_comandas from '../../assets/comanda_menu.png';
+import back_comandas from '../../assets/back_comandas.png';
+import get_job_linkedin from '../../assets/get_job_linkedin.png';
+import fitness_controll from '../../assets/fitness_controll.png';
 
 import './portfolio.css';
 
@@ -8,7 +12,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'Sistema de gerenciamento de comandas',
-      img: IMG15,
+      img: front_comandas,
       description:
         'Aplicação React desenvolvida para gerenciar comandas e pedidos ' +
         'de bares e restaurantes de pequeno porte. Abaixo está a estrutura ' +
@@ -20,7 +24,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'Fitness Controll',
-      img: IMG15,
+      img: fitness_controll,
       description:
         'Aplicação React desenvolvida para controle de clientes em uma ' +
         'rede de academias. A aplicação permite que os clientes ' +
@@ -35,7 +39,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'Backend sistema de gerenciamento de comandas',
-      img: IMG15,
+      img: back_comandas,
       description:
         'Esta API fornece uma aplicação do lado do servidor ' +
         'usando Express.js com capacidades em tempo real usando ' +
@@ -51,7 +55,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'Buscador de vagas de emprego',
-      img: IMG15,
+      img: NTFS,
       description:
         'Este projeto utiliza Selenium para automatização, Flask para a criação de ' +
         'um servidor web, Openpyxl para manipulação de arquivos Excel, e Pandas para ' +
@@ -60,6 +64,19 @@ const Portfolio = () => {
       technologies: 'Python | Selenium | Flask | Openpyxl | Pandas',
       link: false,
       github: 'https://github.com/JackSSads/get-job-linkedin',
+    },
+    {
+      id: 3,
+      title: 'Automação de NFS',
+      img: get_job_linkedin,
+      description:
+        'Aplicação que permite a automação de processos ' +
+        'de envio de notas fiscais recebidas por e-mail.' +
+        'Tem o intuito de facilitar o envio de notas fiscais ' +
+        'para contabilidade, sem a necessidade de intervenção humana.',
+      technologies: 'Python | Selenium | Pdfplumber',
+      link: false,
+      github: 'https://github.com/JackSSads/disparo_NTFS',
     },
   ];
 

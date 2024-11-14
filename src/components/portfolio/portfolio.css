@@ -10,6 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    max-height: 700px;
 }
 
 .portfolio__item:hover {
