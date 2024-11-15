@@ -3,6 +3,7 @@ import front_comandas from '../../assets/comanda_menu.png';
 import back_comandas from '../../assets/back_comandas.png';
 import get_job_linkedin from '../../assets/get_job_linkedin.png';
 import fitness_controll from '../../assets/fitness_controll.png';
+import netflix_screen from '../../assets/netflix_screen.png';
 
 import './portfolio.css';
 
@@ -17,7 +18,7 @@ const Portfolio = () => {
         'Aplicação React desenvolvida para gerenciar comandas e pedidos ' +
         'de bares e restaurantes de pequeno porte. Abaixo está a estrutura ' +
         'do projeto e uma descrição de cada componente e serviço.',
-      technologies: 'React | Tailwind CSS | Axios | Socket.io Client',
+      technologies: 'React.js | Tailwind CSS | Axios | Socket.io Client',
       link: false,
       github: 'https://github.com/JackSSads/comanda-v2',
     },
@@ -33,6 +34,19 @@ const Portfolio = () => {
       link: false,
       github: 'https://github.com/JackSSads/fitness-controll',
     },
+    {
+      id: 3,
+      title: 'Netflix screen',
+      img: netflix_screen,
+      description:
+        'Desenvolvido com intuido de estudo, esta aplicação ' +
+        'apresenta a interface do Netflix, com a possibilidade de ' +
+        'visualizar filmes, series, e programas. A aplicação ' +
+        'utiliza a API do The Movie Database para obter os dados.',
+      technologies: 'React.ts | Tailwind CSS | Axios',
+      link: 'https://clone-netflix-inteface.vercel.app/',
+      github: 'https://github.com/JackSSads/clone-netflix.git',
+    },
   ];
 
   const backendProjects = [
@@ -47,7 +61,7 @@ const Portfolio = () => {
         'lidar com diferentes funcionalidades, como autenticação de ' +
         'usuários, gerenciamento de produtos e processamento de pedidos.',
       technologies:
-        'Node.js | Express | Mongoose | Socket.io | Logger ' +
+        'Node.js | Express.js | Mongoose | Socket.io | Logger.js ' +
         '| Bcrypt | CORS | Dotenv | JsonWebToken | Winston',
       link: false,
       github: 'https://github.com/JackSSads/get-job-linkedin',
