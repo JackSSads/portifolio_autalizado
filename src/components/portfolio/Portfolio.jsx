@@ -64,7 +64,7 @@ const Portfolio = () => {
         'Node.js | Express.js | Mongoose | Socket.io | Logger.js ' +
         '| Bcrypt | CORS | Dotenv | JsonWebToken | Winston',
       link: false,
-      github: 'https://github.com/JackSSads/get-job-linkedin',
+      github: 'https://github.com/JackSSads/comanda-api-v2',
     },
     {
       id: 2,
